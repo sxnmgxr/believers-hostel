@@ -47,6 +47,6 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN_DEV }}
-          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID_DEV }}
+          VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
           WORKING_DIRECTORY: ./believers-hostel-frontend
